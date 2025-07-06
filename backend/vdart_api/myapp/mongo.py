@@ -1,7 +1,8 @@
 from pymongo import MongoClient
+import os
 
 # Your MongoDB connection string
-MONGO_URI = "mongodb+srv://abhinav1:abhinav118@cluster0.8vyve.mongodb.net/Feedback?retryWrites=true&w=majority"
+MONGO_URI = os.environ['MONGO_URI']
 
 # Initialize client
 client = MongoClient(MONGO_URI)
