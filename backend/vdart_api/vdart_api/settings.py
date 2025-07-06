@@ -79,21 +79,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'vdart_api.wsgi.application'
 
-
-# Database
-# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'djongo',
-#         'NAME': 'Feedback',
-#         'ENFORCE_SCHEMA': False,
-#         'CLIENT': {
-#             'host': 'mongodb+srv://abhinav1:abhinav118@cluster0.8vyve.mongodb.net/Feedback?retryWrites=true&w=majority'
-#         }
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.dummy'
