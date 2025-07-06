@@ -28,21 +28,21 @@ It allows administrators to:
 ## ⚙️ Setup
 
 ### Backend
-bash
-cd backend
-python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
-pip install Django==4.2 djangorestframework  pymongo google-api-python-client google-auth python-dotenv corsheaders
+**bash**
+**cd backend**
+**python -m venv env**
+**source env/bin/activate**  # On Windows: env\Scripts\activate
+**pip install Django==4.2 djangorestframework pymongo google-api-python-client google-auth python-dotenv corsheaders**
 
 # Configure environment variables
-cp .env.example .env
+**cp .env.example .env**
 
 # Create a .env file in your backend/vdart_api directory:
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-password
-GOOGLE_SHEET_ID=your-google-sheet-id
-GOOGLE_CREDENTIALS_FILE=path-to-your-credentials.json
-DOMAIN=your-domain
+**EMAIL_USER=your-email@gmail.com**
+**EMAIL_PASS=your-app-password**
+**GOOGLE_SHEET_ID=your-google-sheet-id**
+**GOOGLE_CREDENTIALS_FILE=path-to-your-credentials.json**
+**DOMAIN=your-domain**
 
 📸 Screenshots
 
