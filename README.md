@@ -28,7 +28,7 @@ It allows administrators to:
 ## ⚙️ Setup
 
 ### Backend
-```bash
+bash
 cd backend
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
