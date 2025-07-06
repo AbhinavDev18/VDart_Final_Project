@@ -37,8 +37,7 @@ pip install Django==4.2 djangorestframework  pymongo google-api-python-client go
 # Configure environment variables
 cp .env.example .env
 
-Create a .env file in your backend/vdart_api directory:
-
+# Create a .env file in your backend/vdart_api directory:
 EMAIL_USER=your-email@gmail.com
 EMAIL_PASS=your-app-password
 GOOGLE_SHEET_ID=your-google-sheet-id
